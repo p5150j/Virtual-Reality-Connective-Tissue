@@ -2,6 +2,9 @@
 
 This is an experimental repo for exploring a new way of interfacing with a immersive virtual worlds and the relation of interacting with real world digital hardware systems that run our daily lives. For past and ongoing experiments see the [wiki here](https://github.com/p5150j/Virtual-Reality-Connective-Tissue/wiki) and [project board here](https://github.com/p5150j/Virtual-Reality-Connective-Tissue/projects/1)
 
+![ezgif-7-c2508e0427](https://user-images.githubusercontent.com/444888/150306532-bf11af13-1b0a-4d2d-97e4-647b6105a7b3.gif)
+
+
 ## To get this repositopry up and running you will need:
 
  - Windows 10/11 
