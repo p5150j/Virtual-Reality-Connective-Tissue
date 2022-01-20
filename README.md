@@ -40,3 +40,7 @@ Media related:
 - Photography lighting 
 - Sony a7iii or higher end DLSR camera able to do 4k video capture 
 - 4k Camlink
+
+3d printing:
+-  [Ender 3D printer](https://www.creality3dofficial.com/products/official-creality-ender-3-3d-printer) 
+	- [Cura](https://ultimaker.com/software/ultimaker-cura) desktop app for slicing
