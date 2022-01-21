@@ -163,7 +163,7 @@ namespace BNG {
 #endif
 	}
 
-        public void ShootLauncher() {
+        public void TurnLightOn() {
            /// post code here
 
 
@@ -172,6 +172,35 @@ namespace BNG {
 			
 			Body = new Post {
 				state = true,
+				
+			},
+			EnableDebug = true
+		};
+		RestClient.Post<Post>(currentRequest)
+		.Then(res => {
+
+			// And later we can clear the default query string params for all requests
+			RestClient.ClearDefaultParams();
+
+			this.LogMessage("Success", JsonUtility.ToJson(res, true));
+		})
+		.Catch(err => this.LogMessage("Error", err.Message));
+
+
+
+        }
+
+
+
+        public void TurnLightOff() {
+           /// post code here
+
+
+		currentRequest = new RequestHelper {
+			Uri =  "http://10.0.0.188:8888/relays/3",
+			
+			Body = new Post {
+				state = false,
 				
 			},
 			EnableDebug = true
